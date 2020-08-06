@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>mydl</name>
+	<version>0.1.0</version>
+	<creationDate>7/16/2020</creationDate>
+	<author>Zhicheng Wang, Zhihao Lyu</author>
+	<authorUrl>www.alexhaoge.xyz</authorUrl>
+	<authorEmail>562000132a@gmail.com</authorEmail>
+	<copyright>Copyright (C) 2020 alexhaoge.xyz. All rights reserved.</copyright>
+	<description>MyDL project page template</description>
+	<files>
+		<filename>error.php</filename>
+		<filename>index.php</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>template_preview.png</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>favicon.ico</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>img</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<folder>styles</folder>
+		<folder>bootstrap4</folder>
+		<folder>font-awesome-4.7.0</folder>
+	</files>
+	<positions>
+		<position>topNavBar</position>
+		<position>search</position>
+		<position>position0</position>
+		<position>debug</position>
+		<position>footer</position>
+		<position>left</position>
+	</positions>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_protostar.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_protostar.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field
+					name="style"
+					type="filelist"
+					label="选择布局风格"
+					description="布局风格文件"
+					directory="templates/mydl/styles" 
+					filter=".php" 
+					required="true"
+					default="default.php"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,192 @@
+/* stylelint-disable selector-list-comma-newline-after */
+
+.tutorials-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.tutorials-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 2.25rem;
+}
+
+.tutorials-header-logo:hover {
+  text-decoration: none;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+.tutorials-post {
+  margin-bottom: 4rem;
+}
+.tutorials-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+.tutorials-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+
+/*
+ * Footer
+ */
+.tutorials-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+.tutorials-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.text-muted:hover {
+	background-color: #832D6A;
+	color: #FFF !important;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #832D6A;
+  text-decoration: none;
+}
+
+.breadcrumb {
+	background-color: #EDD8E2;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 78.5%;
+  z-index: 999;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+.tutorial-resources {
+	padding-top: 4.125rem;
+	padding-bottom: 4.09rem;
+	background-color: #800080;
+	color: #f5f5f5;
+}
+
+ol.breadcrumb a.pathway:link{color: #6b2259;text-decoration:none;}
+ol.breadcrumb a.pathway:visited {color: blueviolet;text-decoration:none;}
+ol.breadcrumb a.pathway:hover{color: #6b2259;text-decoration:underline;}
+ol.breadcrumb a.pathway:active{color: #f29111;text-decoration:underline;}
+
+a.get-started {
+	color: #FFF;
+}
+
+li.list-group-item.active a{
+  color: white;
+}
+
+li.list-group-item a{
+  color: #6b2259;
+}
+
+li.list-group-item.list-group-item-action.list-group-item-action-light.active {
+  background-color: #6b2259;
+}
+
+ul.accordion li.item a{
+  clear: both;
+  word-break: break-all;
+}
+
+.container-fluid#zhengwen #content {
+  padding: 3rem;
+  padding-top: 1rem;
+}
+
+@media (min-width: 768px) {
+  .card-left {margin-left: 8.333333%;}
+}
+
+.mydl-pagination {
+  margin-bottom: 4rem;
+}
+.mydl-pagination > .btn {
+  border-radius: 2rem;
+}
+
+/*div#features div.card-body i.fa{
+/*  font-size: 3rem!important;	/*字体强制大小*/
+/*  left:30%;   /*偏离左侧30%位置显示*/
+/*  line-height: 1.42857!important;  /*强制设置行高*/
+/*  position: absolute;
+/*}
+
+@media (max-width:768px) {
+  div#features div.card-body i.fa{
+  font-size: 3rem!important;
+  left:9%;
+  line-height: 1.42857!important;
+  position: absolute;
+  }
+}
+*/
+
+.element-waypoint {
+  visibility: hidden;
+}
+
+.home-divider {
+  margin: 3rem;
+}
