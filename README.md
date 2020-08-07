@@ -14,10 +14,10 @@ Joomla! CMS 3.1+ (3.9 recommended).
 We secure a responsive layout by Bootstrap4.
 
 ## Introduction
-The templates is based on Protostar templates. The templates has two layout styles.  
-One is specialized for MyDL home page with animation when scrolling down the page (but has less scalability).   
+The template has two layout styles.
+One is specialized(but has less scalability) for MyDL home page with animation when scrolling down the page.   
 The other one is default style for articles with left sidebar for article categories, sticky-top breadcrumb and right sidebar for table of contents.  
-Both layouts have top navigation bar with module position for menu, search tool and login button.
+Both layouts have top navigation bar with module position for menu, search tool and login button. Currently this template only supports English.
 
 ## Dependencies(already included in repo)
 * Bootstrap v4.5.0
