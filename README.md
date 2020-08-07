@@ -1,6 +1,6 @@
 # mydl-joomla-template
 This is a customized [Joomla!]() template when building project page for [MyDL](https://github.com/Alexhaoge/MyDL).   
-The template is a part of the course project of *Front-end Design and Development, SOFT0176, College of Software, Nankai University*.
+The template is a part of the course project of *Front-end Design and Development(2020 Summer), SOFT0176, College of Software, Nankai University*.
 
 ## Install
 ### Requirement
